@@ -62,6 +62,7 @@ curl_close($ch);
 # -- Try to decode the api response as json
 $result_json = json_decode($result);
 if ($result_json === null) {
+    echo $result;
     echo "Couldn't decode the response as JSON\n";
     exit();
 }

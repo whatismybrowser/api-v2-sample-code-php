@@ -21,7 +21,7 @@
 # Your API Key
 # You can get your API Key by following these instructions:
 # https://developers.whatismybrowser.com/api/docs/v2/integration-guide/#introduction-api-key
-$api_key = "";
+$api_key = "fc2c860e20b6942c7c83eedc8366a943";
 
 # An example user agent to parse:
 $user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36";
@@ -31,7 +31,7 @@ $url = 'https://api.whatismybrowser.com/api/v2/user_agent_parse';
 
 # -- Set up HTTP Headers
 $headers = [
-    'X-API-KEY: '.$api_key,
+    'fc2c860e20b6942c7c83eedc8366a943: '.$api_key,
 ];
 
 # -- prepare data for the API request
